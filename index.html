@@ -1,102 +1,228 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>A. Ravi Charan | Frontend Web Developer</title>
-  <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Adaveni Ravi | Portfolio</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
 </head>
 <body>
 
-  <!-- Animated Background -->
-  <div class="bg-shapes">
-    <span></span><span></span><span></span><span></span>
+<div class="bg-shapes">
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+</div>
+
+<nav class="navbar">
+
+  <div class="logo">Adaveni Ravi Charan</div>
+
+  <div class="menu-toggle" id="menuToggle">
+    <span></span>
+    <span></span>
+    <span></span>
   </div>
 
-  <!-- Navbar -->
-  <nav class="navbar">
-    <div class="logo">Ravi Charan</div>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#certificates">Certificates</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
 
-    <div class="menu-toggle" id="menuToggle">
-      <span></span>
-      <span></span>
-      <span></span>
+</nav>
+
+<section id="home" class="hero">
+
+  <div class="profile-card">
+    <img src="c:\Users\adave\Downloads\WhatsApp Image 2026-06-01 at 11.01.48 AM 2.jpeg" alt="Profile">
+  </div>
+
+  <h1 class="glitch" data-text="Adaveni Ravi Charan">
+    Adaveni Ravi Charan
+  </h1>
+
+  <h2 id="typing"></h2>
+
+  <button id="scrollBtn" class="magnetic-btn">
+    View My Work
+  </button>
+
+</section>
+
+<section id="about" class="section reveal glass">
+
+  <h2>About Me</h2>
+
+  <p>
+    I am Adaveni Ravi Charan, a passionate Frontend Web Developer and Computer Science student.
+    I enjoy creating responsive websites, modern UI designs and interactive user experiences
+    using HTML, CSS and JavaScript and problem solving in python(Basics)
+  </p>
+
+</section>
+
+<section id="education" class="section reveal">
+
+  <h2>Education</h2>
+
+  <div class="education-container">
+
+    <div class="edu-card">
+      <div class="edu-icon">🎓</div>
+      <h3>B.Tech - CSE</h3>
+      <p>Svr Engineering College</p>
+      <p>68%</p>
+      <span>2023 - 2027</span>
     </div>
 
-    <ul class="nav-links" id="navLinks">
-      <li><a href="#home">Home</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
-
-  <!-- Hero -->
-  <section id="home" class="hero">
-    <h1 class="glitch" data-text="A. Ravi Charan">A. Ravi Charan</h1>
-    <h2 id="typing"></h2>
-    <button id="scrollBtn" class="magnetic-btn">View My Work</button>
-  </section>
-
-  <!-- About -->
-  <section id="about" class="section reveal glass">
-    <h2>About Me</h2>
-    <p>
-      I'm A. Ravi Charan, a student and frontend web developer focused on building modern, clean, and responsive websites.
-      I enjoy working on UI design, animations, and creating smooth user experiences.
-      I also have a basic understanding of Python, which I use for simple scripting and logic building.
-    </p>
-  </section>
-
-  <!-- Skills -->
-  <section id="skills" class="section reveal">
-    <h2>Skills</h2>
-    <div class="skills-list">
-      <span>HTML</span>
-      <span>CSS</span>
-      <span>JavaScript</span>
-      <span>Bootstrap</span>
-      <span>Python (Basics)</span>
+    <div class="edu-card">
+      <div class="edu-icon">📚</div>
+      <h3>Aditya Junior College</h3>
+      <p>Intermediate (MPC)</p>
+      <p>51%</p>
+      <p>Completed</p>
+      <span>2021 - 2023</span>
     </div>
-  </section>
 
-  <!-- Projects -->
-  <section id="projects" class="section reveal">
-    <h2>Projects</h2>
-    <div class="projects-grid">
-      <div class="card">
-        <h3>Personal Portfolio</h3>
-        <p>
-          A modern, animated, and responsive personal portfolio built using
-          HTML, CSS, and JavaScript to showcase my skills and profile.
-        </p>
-      </div>
+    <div class="edu-card">
+      <div class="edu-icon">🏫</div>
+      <h3>Sri Narayana Vidya vihar high school</h3>
+      <p>SSC</p>
+
+      <p>Completed</p>
+      <p>99%</p>
+      <span>2020 - 2021</span>
     </div>
-  </section>
 
-  <!-- Contact -->
-  <section id="contact" class="section reveal glass">
-    <h2>Contact</h2>
+  </div>
 
-    <div class="contact-buttons">
-      <a href="mailto:adaveniravi95@gmail.com" class="contact-btn email-btn">📧 Email</a>
-      <a href="https://github.com/Ravi5c0" target="_blank" class="contact-btn github-btn">🐙 GitHub</a>
-      <a href="https://www.linkedin.com/in/adaveni-ravi-a51659351" target="_blank" class="contact-btn linkedin-btn">💼 LinkedIn</a>
+</section>
+
+<section id="skills" class="section reveal">
+
+  <h2>Skills</h2>
+
+  <div class="skills-list">
+    <span>HTML</span>
+    <span>CSS</span>
+    <span>JavaScript</span>
+   
+    <span>Python</span>
+    
+  </div>
+
+</section>
+
+<section id="certificates" class="section reveal">
+
+  <h2>Certifications</h2>
+
+  <div class="projects-grid">
+
+    <div class="card">
+      <h3>Python Full Stack Developer</h3>
+      <p>Eduskills Foundation</p>
     </div>
-  </section>
 
-  <!-- Footer -->
-  <footer>
-    <p>
-      © 2026 
-      <a href="https://github.com/Ravi5c0" target="_blank" class="footer-link">
-        A. Ravi Charan
-      </a>. All rights reserved.
-    </p>
-  </footer>
+    
 
-  <script src="script.js"></script>
+    <div class="card">
+      <h3>Python teck Stack development</h3>
+      <p>Infosys Spring Board.</p>
+    </div>
+
+  </div>
+
+</section>
+
+<section id="projects" class="section reveal">
+
+  <h2>Projects</h2>
+
+  <div class="projects-grid">
+
+    <div class="card">
+      <h3>Portfolio Website</h3>
+      <p>Modern responsive portfolio using HTML CSS JS.</p>
+    </div>
+
+   
+
+    
+
+  </div>
+
+</section>
+
+<section class="section reveal">
+
+  <h2>Achievements</h2>
+
+  <div class="stats">
+
+    <div class="stat-card">
+      <h3>1</h3>
+      <p>Projects</p>
+    </div>
+
+    <div class="stat-card">
+      <h3>2+</h3>
+      <p>Certificates</p>
+    </div>
+
+    <div class="stat-card">
+      <h3>150+</h3>
+      <p>Learning Hours</p>
+    </div>
+
+  </div>
+
+</section>
+
+<section id="contact" class="section reveal glass">
+
+  <h2>Contact</h2>
+
+  <div class="contact-buttons">
+
+    <a href="23am1a05c0@svrec.ac.in" class="contact-btn email-btn">
+      Email
+    </a>
+
+    <a href="https://github.com/Ravi5c0" target="_blank" class="contact-btn github-btn">
+      GitHub
+    </a>
+
+    <a href="https://www.linkedin.com/in/adaveni-ravi-a51659351?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="contact-btn linkedin-btn">
+      LinkedIn
+    </a>
+
+  </div>
+
+</section>
+
+<footer>
+
+  <p>
+    © 2026 Adaveni Ravi Charan | All Rights Reserved
+  </p>
+
+</footer>
+
+<script src="script.js"></script>
+
 </body>
 </html>
